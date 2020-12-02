@@ -1,7 +1,9 @@
-#introduction:
+# Introduction:
 My project deals with unweighted graph, in this project there are three classes that apply an unweighted graph. I would like to explain about each class written in this project.
 
-###NodeData class:
+# The classes:
+
+### NodeData class:
 This class implements the interface that represents the set of operations applicable on a
  . node (vertex) in an unweighted graph
 This class creates a node, this node has neighbors we are implement this with a HashMap data structure <Integer,node_data>.
@@ -15,7 +17,7 @@ You also can get the node's neighbor list or check if there is neighbor at all (
 You can also add a node and remove it (it is also implemented by a HashMap function).
 And finally toString function.
 
-###Graph_DS class:
+### Graph_DS class:
 This class implements the interface that represents an unweighted graph.
 This class creates a graph implemented by HashMap <Integer,node_data> , and three variables :
 The size of the graph – node_zise.
@@ -30,7 +32,7 @@ going through the list of neighbors of the node and deleting the node from the l
 Also, we have the remove edge function its work by checking if there is no edge between two nodes and if there is, remove the edge.
 And finally, toString function.
 
-###Graph_Algo class:
+### Graph_Algo class:
 This class implements the interface that represents the "regular" Graph Theory algorithms including:
 . clone(); (copy)
 init(graph);
